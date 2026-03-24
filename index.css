@@ -1,0 +1,62 @@
+body {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container div div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+h3 {
+    background-color: black;
+    color: #ff4444;
+    font-size: 6rem;
+    width: 220px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px 0;
+    font-family: 'Courier New', monospace;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
